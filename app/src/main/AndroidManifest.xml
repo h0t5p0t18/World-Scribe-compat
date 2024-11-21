@@ -16,7 +16,8 @@
         <activity android:name=".activities.NextcloudLoginActivity"></activity>
         <activity
             android:name=".activities.PrivacyPolicyActivity"
-            android:exported="true">
+            ### android:exported="true" ### this line caused issues for granting permissions.
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
